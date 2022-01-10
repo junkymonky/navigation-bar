@@ -1,7 +1,7 @@
 :root {
-    --black: #0f0f0f;
-    --white: #e9e9e9;
-    --cyan: #2bb5ff;
+    --dark: #0f0f0f;
+    --light: #e9e9e9;
+    --primary: #2bb5ff;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Space+Mono&display=swap');
@@ -10,7 +10,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: var(--black);
+    background-color: var(--dark);
 }
 
 header {
@@ -40,30 +40,30 @@ header {
 }
 
 .nav__bar li a:hover {
-    color: var(--cyan);
+    color: var(--primary);
 }
 
 li, a, button {
     font-family: "Space Mono", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: var(--white);
+    color: var(--primary);
 }
 
 button {
     padding: 10px 25px;
-    background-color: var(--cyan);
+    background-color: var(--primary);
     border: solid;
     border-width: 2px;
-    border-color: var(--cyan);
+    border-color: var(--primary);
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.4s ease 0s;
 }
 
 button:hover {
-    background-color: var(--black);
+    background-color: var(--dark);
     border: solid;
     border-width: 2px;
-    border-color: var(--cyan);
+    border-color: var(--primary);
 }
